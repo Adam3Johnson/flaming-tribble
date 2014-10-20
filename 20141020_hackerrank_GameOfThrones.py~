@@ -1,0 +1,13 @@
+
+
+palin = raw_input('What is the string of letters?')
+
+def palindrome(palin):
+    if len(palin) >=1 and len(palin) < 10 ** 5 and palin == palin[::-1]:
+	print ("YES")
+    else:
+        print ("NO")
+	
+	
+
+palindrome(palin)
